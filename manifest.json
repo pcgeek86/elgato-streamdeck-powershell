@@ -1,0 +1,34 @@
+{
+    "Actions": [
+      {
+        "Icon": "assets/pwsh", 
+        "Name": "Show GPU Wattage", 
+        "States": [
+          {
+            "Image": "assets/pwsh"
+          }
+        ], 
+        "Tooltip": "Trevor's tooltip", 
+        "UUID": "net.trevorsullivan.pwsh"
+      }
+    ], 
+    "SDKVersion": 2,
+    "Author": "Trevor Sullivan", 
+    "CodePath": "callps.cmd", 
+    "Description": "Trevor Sullivan's plugin to show NVIDIA GPU power consumption on Elgato Stream Deck.", 
+    "Name": "PowerShell", 
+    "Icon": "assets/pwsh", 
+    "URL": "https://trevorsullivan.net", 
+    "Version": "1.0.0",
+    "OS": [
+      {
+          "Platform": "windows", 
+          "MinimumVersion" : "10"
+      }
+    ],
+    "Software": 
+      {
+          "MinimumVersion" : "4.1"
+    }
+  }
+  
