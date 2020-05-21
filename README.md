@@ -18,9 +18,13 @@ To install this plugin, place the contents under `$env:APPDATA\Elgato\StreamDeck
 
 **IMPORTANT**: The plugin folder **must** have an `.sdPlugin` suffix in order for Stream Deck to pick it up.
 
+## Customization
+
+At this time, no customization is supported, unless you know how to reverse engineer the plugin. The text is rendered as red color at a fixed font size, and injected into an SVG template.
+
 ## Caveats
 
-* Only a single instance of this plug-in can be used at any given time, due to how it works internally. 
+* Only a **single instance** of this plug-in can be used at any given time, due to how it works internally. 
   * It only supports updating a single "context", an Elgato Stream Deck API concept.
 * There is code to help ensure that the WebSocket connection is terminated, and the `pwsh.exe` process terminates once Elgato Stream Deck is closed.
   * However, there is the possibility that you could end up with orphaned `pwsh.exe` processes. 
