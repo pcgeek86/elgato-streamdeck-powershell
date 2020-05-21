@@ -3,6 +3,8 @@
 This project implements integration with Elgato's Stream Deck software on Microsoft Windows 10, using native PowerShell code.
 This plugin enables a single action in Stream Deck software, under the `Custom` section called `Show GPU Wattage`. 
 
+![Screenshot](/assets/2020-05-20-screenshot-stream-deck.png)
+
 ## Dependencies
 
 * NVIDIA GPU (tested with NVIDIA GeForce RTX 2080)
