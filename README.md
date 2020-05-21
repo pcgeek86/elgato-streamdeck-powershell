@@ -36,6 +36,6 @@ This software is licensed under the MIT license. See `LICENSE`.
 
 ## Author 
 
-https://github.com/pcgeek86
-https://twitter.com/pcgeek86
-https://trevorsullivan.net
+* https://github.com/pcgeek86
+* https://twitter.com/pcgeek86
+* https://trevorsullivan.net
