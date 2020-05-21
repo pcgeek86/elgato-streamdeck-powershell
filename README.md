@@ -28,7 +28,7 @@ To install this plugin, place the contents under `$env:APPDATA\Elgato\StreamDeck
 
 ## License
 
-This software is licensed under the MIT license. See `LICENSE.md`.
+This software is licensed under the MIT license. See `LICENSE`.
 
 ## Author 
 
