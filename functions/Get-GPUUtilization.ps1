@@ -12,7 +12,7 @@ function Get-GPUUtilization {
     [CmdletBinding()]
     [OutputType([System.Int32])]
     param ()
-    $null = (nvidia-smi.exe)[8] -match '(?sn)(?<watts>\d{1,3})W'
+    $null = ((nvidia-smi.exe --query --display=power) -match '(?sn)Power Draw')[0] -match '(?<watts>\d{1,3})'
     $Utilization = $Matches.watts
 
     LogMessage -Message ('GPU watts used: {0}' -f $Utilization)
