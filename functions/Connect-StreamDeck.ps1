@@ -22,7 +22,7 @@ function Connect-StreamDeck {
     $WsUri = 'ws://127.0.0.1:{0}' -f $Port
     $ConnectTask = $Websocket.ConnectAsync($WsUri, $CancelToken)
     while (!$ConnectTask.IsCompleted) {
-        #LogMessage -Message ($Task | ConvertTo-Json)
+        LogMessage -Message ($ConnectTask | ConvertTo-Json)
         Start-Sleep -Milliseconds 1000
     }
     LogMessage -Message 'Finished connecting to Stream Deck'
